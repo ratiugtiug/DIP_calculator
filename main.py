@@ -1,7 +1,7 @@
 Import tkinter as tk
 
 class MyCalculator:
-    def_init_(self):
+    def__init__(self):
 
         self.root = tk.Tk()
 
