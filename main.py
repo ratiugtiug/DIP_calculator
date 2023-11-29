@@ -8,7 +8,7 @@ class MyCalculator:
         self.root.geometry("300x300")
         self.root.title("My Calculator")
 
-        self.label = tk.label(self.root, text="Hello DIP01", font=('Arial', 18))
+        self.label = tk.Label(self.root, text="Hello DIP01", font=('Arial', 18))
         self.label.pack()
 
         self.button = tk.Button(self.root, text="Click here", height=4)
