@@ -1,4 +1,4 @@
-Import tkinter as tk
+import tkinter as tk
 
 class MyCalculator:
     def__init__(self):
