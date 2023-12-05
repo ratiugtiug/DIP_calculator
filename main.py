@@ -24,16 +24,16 @@ class MyCalculator:
         self.button.place(x=235, y=50)
 
         self.button = tk.Button(self.root, text="x", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=235, y=50)
+        self.button.place(x=235, y=100)
 
         self.button = tk.Button(self.root, text="-", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=235, y=50)
+        self.button.place(x=235, y=150)
 
         self.button = tk.Button(self.root, text="+", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=235, y=50)
+        self.button.place(x=235, y=200)
 
         self.button = tk.Button(self.root, text="=", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=235, y=50)
+        self.button.place(x=235, y=250)
 
         self.button = tk.Button(self.root, text="7", height=1, width=4 ,font=('Arial', 18))
         self.button.place(x=10, y=100)
