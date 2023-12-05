@@ -11,6 +11,15 @@ class MyCalculator:
         self.label = tk.Label(self.root, text="Hello Kitty", font=('Arial', 18))
         self.label.pack()
 
+        self.button = tk.Button(self.root, text="AC", height=1, width=3 ,font=('Arial', 18))
+        self.button.place(x=20, y=50)
+
+        self.button = tk.Button(self.root, text="+/-", height=1, width=3 ,font=('Arial', 18))
+        self.button.place(x=120, y=50)
+
+        self.button = tk.Button(self.root, text="%", height=1, width=3 ,font=('Arial', 18))
+        self.button.place(x=220, y=50)
+
         self.button = tk.Button(self.root, text="7", height=1, width=3 ,font=('Arial', 18))
         self.button.place(x=20, y=100)
 
