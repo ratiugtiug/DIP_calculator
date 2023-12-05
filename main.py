@@ -18,7 +18,7 @@ class MyCalculator:
         self.button.place(x=85, y=50)
 
         self.button = tk.Button(self.root, text="%", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=170, y=50)
+        self.button.place(x=165, y=50)
 
         self.button = tk.Button(self.root, text="7", height=1, width=4 ,font=('Arial', 18))
         self.button.place(x=10, y=100)
@@ -27,7 +27,7 @@ class MyCalculator:
         self.button.place(x=85, y=100)
 
         self.button = tk.Button(self.root, text="9", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=170, y=100)
+        self.button.place(x=165, y=100)
 
         self.button = tk.Button(self.root, text="4", height=1, width=4 ,font=('Arial', 18))
         self.button.place(x=10, y=150)
@@ -36,7 +36,7 @@ class MyCalculator:
         self.button.place(x=85, y=150)
 
         self.button = tk.Button(self.root, text="6", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=170, y=150)
+        self.button.place(x=165, y=150)
 
         self.button = tk.Button(self.root, text="1", height=1, width=4 ,font=('Arial', 18))
         self.button.place(x=10, y=200)
@@ -45,7 +45,7 @@ class MyCalculator:
         self.button.place(x=85, y=200)
 
         self.button = tk.Button(self.root, text="3", height=1, width=4 ,font=('Arial', 18))
-        self.button.place(x=170, y=200)
+        self.button.place(x=165, y=200)
 
         self.button = tk.Button(self.root, text="0", height=1, width=4 ,font=('Arial', 18))
         self.button.place(x=10, y=250)
