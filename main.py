@@ -37,10 +37,7 @@ class MyCalculator:
 
         self.button = tk.Button(self.root, text="3", height=1, width=3 ,font=('Arial', 18))
         self.button.place(x=220, y=150)
-
-        self.button = tk.Button(self.root, text="0", height=1, width=3 ,font=('Arial', 18))
-        self.button.place(x=20, y=200)
-
+        
         self.root.mainloop()
 
 MyCalculator()
